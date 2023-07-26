@@ -19,7 +19,7 @@
         <!-- navbar section -->
         <div class="navbar container mx-auto rounded-full my-12 p-7 bg-[#F85559] text-white ">
 
-            <div class="navbar-start lg:flex">
+            <div class="navbar-start lg:flex md:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>About Us</a></li>
@@ -46,16 +46,15 @@
         <section class="container mx-auto relative">
             <div class="carousel w-full">
                 <!-- slide 1 -->
-                <div id="slide1" class="carousel-item relative w-full">
+                <div id="slide1" class="carousel-item relative w-full block">
                     <div class="w-full">
                         <div class="relative bg-gradient-to-r from-[#000000b7] to-[#080202be] rounded-xl w-full">
                             <img src="/images/banner1.png" class="w-full mix-blend-overlay rounded-xl" />
                         </div>
                         <div class="flex justify-center items-center">
-                            <div
-                                class=" text-white absolute top-40 flex flex-col items-center justify-center text-center gap-6">
-                                <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
-                                <p>We supply highly quality organic products</p>
+                            <div class=" text-white absolute md:top-20 bottom-6 gap-1 flex flex-col items-center justify-center text-center md:gap-6">
+                                <h1 class="md:text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xs md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-error">Shop Now</button>
                             </div>
                         </div>
@@ -72,10 +71,10 @@
                             <img src="/images/banner2.png" class="w-full mix-blend-overlay rounded-xl" />
                         </div>
                         <div class="flex justify-center items-center">
-                            <div
-                                class=" text-white absolute top-40 flex flex-col items-center justify-center text-center gap-6">
-                                <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
-                                <p>We supply highly quality organic products</p>
+                            
+                            <div class=" text-white absolute md:top-20 bottom-6 gap-1 flex flex-col items-center justify-center text-center md:gap-6">
+                                <h1 class="md:text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xs md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-error">Shop Now</button>
                             </div>
                         </div>
@@ -92,10 +91,10 @@
                             <img src="/images/banner3.png" class="w-full mix-blend-overlay rounded-xl" />
                         </div>
                         <div class="flex justify-center items-center">
-                            <div
-                                class=" text-white absolute top-40 flex flex-col items-center justify-center text-center gap-6">
-                                <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
-                                <p>We supply highly quality organic products</p>
+                            
+                            <div class=" text-white absolute md:top-20 bottom-6 gap-1 flex flex-col items-center justify-center text-center md:gap-6">
+                                <h1 class="md:text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xs md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-error">Shop Now</button>
                             </div>
                         </div>
@@ -112,10 +111,10 @@
                             <img src="/images/banner4.png" class="w-full mix-blend-overlay rounded-xl" />
                         </div>
                         <div class="flex justify-center items-center">
-                            <div
-                                class=" text-white absolute top-40 flex flex-col items-center justify-center text-center gap-6">
-                                <h1 class="text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
-                                <p>We supply highly quality organic products</p>
+                            
+                            <div class=" text-white absolute md:top-20 bottom-6 gap-1 flex flex-col items-center justify-center text-center md:gap-6">
+                                <h1 class="md:text-7xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xs md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-error">Shop Now</button>
                             </div>
                         </div>
@@ -166,7 +165,7 @@
             </div>
         </section>
         <!-- card section -->
-        <section class="container mx-auto">
+        <section class="container mx-auto relative">
             <div class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- card 1 -->
                 <div>
@@ -379,7 +378,7 @@
                 <div class="relative bg-gradient-to-r from-[#000000b7] to-[#080202be] rounded-xl w-full">
                     <img src="images/banner1.png" alt="" class="w-full mix-blend-overlay rounded-xl">
                 </div>
-                <div class="absolute top-28 right-64">
+                <div class="md:absolute top-28 right-64">
                     <h3 class="text-5xl font-bold mb-6">Meet the team section</h3>
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
@@ -428,9 +427,8 @@
                 </div>
             </div>
         </section>
-    </main>
     <!-- footer section -->
-    <footer class="footer footer-center py-24 bg-[#121212] text-white rounded">
+    <footer class="footer footer-center py-24 bg-[#121212] text-white rounded relative">
         <div class="flex ">
             <div><img src="images/logo.png" alt=""></div>
             <div class="text-4xl font-medium"><h3>Fruit Burst</h3></div>
@@ -466,6 +464,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
